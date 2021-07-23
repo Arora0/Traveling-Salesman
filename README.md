@@ -7,10 +7,10 @@ Finding a global optimum of a highly non-linear non-convex function, say f(x), i
 
 The system starts at a high "Temperature" and accepts the new solutions based on the Boltzmann Probability distribution, P= exp(-dE/T), where dE is the change
 in energy or in this case in the value of f(x). In the beginning, the bad solutions are also accepted with a high probability allowing a broader search of the 
-solution space and also enabling the algorithm to escape local optima. The temperature is then slowly decreased and the algorithm tends to a greedy approarch 
+solution space and also enabling the algorithm to escape local optima. The temperature is then slowly decreased and the algorithm tends to a greedy approach 
 where a good solution is accepted with a higher probability. This approach, called the Metropolis Algorithm, brings us extremely close to the global optima with a lot less computational expense.
   
 
 # Required libraries
 This project uses a rather simple framework to achieve the goal. The libraries required are numpy, matplotlib and IPython. They can be downloaded using either
-the pip or Conda installer. 
+the pip or conda installer. 
